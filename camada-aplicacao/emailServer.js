@@ -21,6 +21,7 @@
 */
 
 const fs = require('fs')
+var FILENAME_SENT = 'CLIENT4-CLIENT1-mensagem.txt';
 
 class Email {
     // userFrom; // usuário que enviou
@@ -149,7 +150,7 @@ class User {
         // toFile.concat("QUIT\n");
         toFile += "QUIT\n";
 
-        fs.writeFile("CLIENT4-CLIENT1-mensagem.txt", toFile, (err) => {
+        fs.writeFile(FILENAME_SENT, toFile, (err) => {
             if (err) console.log(err); -
             console.log("Successfully Written to File.");
         });
