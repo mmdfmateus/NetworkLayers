@@ -1,0 +1,6 @@
+MAIL FROM: guceconelli@gmail.com
+RCPT TP: tiahai
+DATA 
+ta tudo dando erradinho
+.
+QUIT
