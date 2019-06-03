@@ -1,0 +1,3 @@
+google.com,1
+github.com,2
+cefetmg.br,3
