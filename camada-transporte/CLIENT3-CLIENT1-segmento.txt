@@ -1,2 +1,7 @@
-SEQUENCE: 
-LENGTH:
+SEQUENCE: 1
+LENGTH: 83MAIL FROM: guceconelli@gmail.com
+RCPT TP: arthur@gmail.com
+DATA 
+SandroRedes
+.
+QUIT
