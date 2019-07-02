@@ -5,6 +5,7 @@ namespace camada_rede
     public class Program
     {
         public static FilesService filesService = new FilesService();
+        public static NetworkServices networkService = new NetworkServices();
         public static string hostsPath = "hostsTable.json";
 
         public static void Main(string[] args)
